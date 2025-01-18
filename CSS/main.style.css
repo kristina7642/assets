@@ -1,1 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+header {
+width: 90%;
+padding: 25px 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+header nav {
+width: 100%;
+margin-top: 15px;
+padding-top: 25px;
+border-top: 1px solid #888888; /*Толщина границ и стиль линий*/
+display: flex;
+justify-content: space-between;
+}
+header nav ul {
+display:flex;
+width: 80%;
+margin-right: 6%;
+padding-left: 0;
+margin-left: 0;
+list-style: none;
+}
+header nav a {
+color: #607ce6;
+text-decoration: none;
+}
+ul li a {
+    color: #333;
+    text-decoration: none;
+}
+.logo-header {
+    margin-right: 50%;
+    float: left;
+}
+header p span {
+    display: block;
+    color: #607ce6;
+    font-size: 20px;
+    font-weight: 600;
+}
+header p, span {
+    text-align: right;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1% 4%;
+}
+.wrap {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between; 
+    padding-top: 2vw;  
+}
+.column
+.logo {
+    margin: 0;
+    padding-right: 30vw;
+    width: 180px;
+}
+footer ul {
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw;
+    grid-template-rows: repeat(4, 35px);
+    gap: 1% 10%;
+}
+footer ul li {
+    width: 10vw;
+    list-style: none;
+    display: inline-block;
+}
+footer ul li a {
+    color: #fff;
+}
+footer p {
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+footer .uslugi{
+    margin-left: -60px;
+    margin-top: -40px;
+}
+main {
+    width: 90%;
+}
+h1 {
+font-size: 60px;
+margin: 0;
+width: 35vw;
+}
+h2 {
+padding: 10px 0;
+font-size: 48px;
+}
+h3 {
+font-size: 28px;
+}
+.banner {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.banner p {
+    padding-top: 20px;
+    width: 25%;
+}
+.banner img {
+    width: 100%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 44vw 44vw;
+    gap: 3% 1vw;
+    margin-bottom: 50px;
+    
+}
+.grid img {
+    width: 100%;
+}
+.banner img {
+width: 100%;
+}
+.wrap {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+}
+.column {
+    margin: 0;
+    width: 25%;
+    margin-bottom: 30px;
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+.column img {
+    width: 70%;
+    padding-bottom: 7vw;
+}
+.column a {
+    text-decoration: none;
+    color:#607ce6;
+    font-size: 20px;
+    padding-top: 35px;
+}
+.column a:hover {
+    transition: 5s;
+    color: #242f58;
+}
+section .sig {
+    margin-top: -15px;
+   }
+.new-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vw;
+}
+.new-column {
+    background-color: #f5f5f5;
+    width: 25.5vw;
+    margin: 0;
+}
+.new-column img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.new-column p {
+    margin: 15px;
+    margin-bottom: 4vw;
+}
+.inner a {
+padding-left: 0px;
+text-decoration: none;
 
+}
+.inner {
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.inner time {
+    padding-left: 12vw;
+}
+.inner-n{
+    width: 100%;
+    display: flex;
+   padding-top: 40px;
+   justify-content: space-between;
+}
+.inner-n a{
+    padding-left: 0px;
+text-decoration: none;
+margin-left: 19px;
+}
+.inner-n time{
+    padding-left: 15vw;
+}
+
+@media (max-width: 1440px){
+    body{
+        font-size: 1em;
+    }
+    .header nav ul{    
+        margin-right: 0;
+    }
+    .logo-header{
+        margin-right: 20%;
+    }
+    section .wrap .column{
+    padding: 20px;
+    width: 23%;
+    }
+    section .calib {
+        padding-top: 25px;
+       }
+    section .sig {
+        padding-top: 25px;
+       }
+       section .man {
+        padding-top: 40px;
+       }
+       .inner-n time {
+        font-size: 1em;
+       margin-left: -40px;   
+       margin-left: -60px;
+       margin-top: -20px;
+    }
+    .inner-n{
+        margin-top: -20px;
+    }
+    .inner-n a{
+        white-space: nowrap;
+        margin-top: -20px;
+       }
+       .inner a{
+        white-space: nowrap;
+       }
+       .uslugi p{
+        margin-left: -10px;
+       }
+       footer{
+        width: 100%;
+       }
+       section .man{
+        margin-top: 10px;
+    }
+    .uslugi{
+        padding-left: 20px;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .logo-header{
+        margin-right: 14%;
+    } 
+     header nav ul li{
+        font-size: 0.9em;
+         display: flex;
+         flex-direction: column;
+         width:40%;
+         white-space: nowrap;
+         padding: 8px;
+     }
+     .contacts a{
+        font-size: 0.9em;
+        white-space: nowrap;
+        padding-left: -15px;
+        margin-left: -35px;
+     }
+    .contacts{
+        margin-top: 10px;
+    }
+
+     main .banner p{
+        font-size: 1.2em;
+        width: 47%;
+    margin-right: 15px;
+     }
+     footer ul{
+        display: grid;
+    grid-template-columns: 13vw 13vw 13vw;
+    grid-template-rows: repeat(4, 35px);
+    gap: 1% 10%;
+     }
+     footer .uslugi{
+        padding-left: -80px;
+            }
+     footer .pred{
+         white-space: nowrap;
+            }
+            footer{
+                font-size: 1em;
+            }
+            footer .geog{
+                white-space: nowrap;
+            }
+            section .calib{
+                padding-top: 60px;
+                margin-top: -20px;
+            }
+            section .sig {
+             margin-top: -10px;
+            }
+            section .man{
+                margin-top: -40px;
+            }
+            .inner {
+                white-space: nowrap;
+                font-size: 1em;
+            }
+            .inner time {
+                font-size: 1em;
+                padding-left: 10px;
+            }
+            section .inner-n {
+                white-space: nowrap;
+                font-size: 1em;
+              padding-top: 20px;
+            }
+            .inner-n{
+                margin-top: 60px;
+            }
+            .inner-n time {
+                font-size: 1em;
+                margin-left: -100px;
+            }
+            section img{
+                width: 100%;
+            }
+            .uslugi{
+                padding-left: 57px;
+               }   
+               section .grid{
+                font-size: 1.2em;
+               }   
+               section .grid {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+               }
+               section .grid img{
+              padding: 13px;
+               }  
+               section .wrap .column{
+                width: 34%;
+               }  
+               .wrap nav ul{
+               margin-right: 100px;
+               } 
+}
+
+
+
+@media (max-width: 768px){
+   body{
+    font-size: 2em;
+   }
+   header{ 
+    display: block; 
+    padding: 10px;
+    margin-left: -30px;
+   }
+   .logo-header{
+    width: 40vw;
+}
+
+header p span {
+    font-size: 1em;
+    padding-bottom: 0.5em;
+}
+.logo-header{
+    margin-right: 14%;
+} 
+header nav ul {
+    font-size: 0.8em;
+     display: block;
+ }
+ header img{
+    margin-left: 26px;
+ }
+ .contacts{
+        width: 100%;
+        margin-left: 160px;
+        font-size: 0.7em;
+        padding-top: -30px;
+       }
+
+ footer ul{
+    font-size: 0.6em;
+    display: flex;
+    flex-direction: column;
+margin-left: -40px;
+ }
+ .pred{
+    white-space: nowrap;
+ }
+ footer .geog{
+    white-space: nowrap;
+}
+
+ .uslugi{
+    font-size: 1.5em;
+    padding-left: 60px;
+   }
+footer p{
+    font-size: 0.7em;
+}
+section .new-wrap {
+    display: flex;
+    flex-direction: column;
+}
+section .new-wrap .new-column{
+    width: 70%;
+    margin-bottom: 20px;
+}
+section .new-wrap .new-column p{
+    font-size: 0.7em; 
+}
+section .new-wrap .new-column a{
+    font-size: 0.7em; 
+}
+.inner a{
+    margin-left: 20px;
+}
+.inner time{
+    font-size: 0.7em; 
+    margin-right: 40px;
+}
+section img{
+    width: 105%;
+}
+section .inner-n {
+  padding-top: 20px; 
+  margin-bottom: 20px;
+}
+.inner-n time {
+    font-size: 0.7em;
+    margin-right: 40px;
+}
+main .banner p{
+    font-size: 0.6em;  
+    width: 40%;
+    margin-right: 15px;
+}
+section .grid p{
+    font-size: 0.6em;  
+}
+section .column h3{
+    font-size: 0.8em;
+}
+section .sig {
+    padding-top: 45px;
+   }
+   section .image-container{
+    width: 120%;
+   }
+   section .calib{
+    padding-top: 40px;
+   }
+   section .man{
+    padding-top: 70px;
+   }
+   section .wrap .column{
+    width: 30%;
+   }
+   section .grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   section .grid img{
+  padding: 10px;
+   }
+}
+
+
+
+
+@media (max-width: 576px){
+   .logo-header{
+    width: 87vw;
+    margin-right: 0;
+    padding-bottom: 1em;
+   }
+   header{
+    font-size: 0.8em;
+    display: block;
+    padding: 10px;
+    margin-left: -30px;
+   }
+   header nav ul li{
+    font-size: 0.8em;
+     display: block;
+     white-space: nowrap;
+ }
+   .contacts {
+    display: block;
+    width: 100%;
+    margin-left: 100px;
+   }
+   main .banner h1{
+    font-size: 2em;
+   }
+   main .banner{
+    display: block;
+   }
+   main .banner p{
+    width: 80%;
+    font-size: 0.6em;
+    margin: 5px;
+    padding-bottom: 15px;
+   }
+   h2{
+    font-size: 1.4em;
+   }
+   section .grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   section .grid img{
+    padding: 10px;
+    }
+    section .column h3{
+        font-size: 1.5em;
+    }
+    section .sig {
+        padding-top: -50px;
+       }
+       section .calib {
+        padding-top: 50px;
+       }
+       section .wrap .column{
+        width: 50%;
+       }
+       section img{
+        width: 100%;
+       }
+       section .new-wrap .new-column{
+        width: 50%;
+       }
+       section .new-wrap{
+        width: 140%;
+        display: block;
+       }
+       section .new-wrap .inner{
+        padding-bottom: 5px;
+       }
+       section .new-wrap .inner-n{
+        padding-bottom: 5px;
+       }
+       footer ul{
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+    margin-left: -140px;
+     }
+     .pred{
+        white-space: nowrap;
+     }
+     footer .geog{
+        white-space: nowrap;
+    }
+    .logo{
+        margin-left: 5px;
+    }
+    .uslugi{
+        padding-left: 80px;
+       }
+       section .wrap{
+        display: block ;
+       }
+       section .wrap h3{
+        font-size: 0.9em;
+       }
+       footer .wrap{
+        font-size: 0.6em;
+       }
+}
